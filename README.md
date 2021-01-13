@@ -30,7 +30,7 @@ example
  let url = axios.get(https://api.got.show/api/show/houses/Red Keep)
 ```
 
-and fitch the homes by character info  ^ ^ 
+and fitch the houses by character info  ^ ^ 
 
 >Hint: you can use ```axios.All()``` [learn more](https://www.storyblok.com/tp/how-to-send-multiple-requests-using-axios)
 ---
