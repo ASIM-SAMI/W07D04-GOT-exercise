@@ -14,13 +14,13 @@ how to use the api !
  https://api.got.show/api/show/houses/:name 
 exambe if i want 
 ```js
- let urlOne = axios.get(https://api.got.show/api/show/houses/House Tarly)
+ let urlOne = axios.get(https://api.got.show/api/show/houses/Petyr Baelish)
 ```
 names : 
 // jon snow
 // Daenerys Targaryen
 // Tyrion Lannister
-// Samwell Tarly
+// Petyr Baelish
 
 
 and fitch the homes by character info  ^ ^ 
