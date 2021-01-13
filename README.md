@@ -11,17 +11,24 @@ Create a react app that displays the different Game of Thrones Character and Hou
 by fitching data from https://api.got.show/doc/#api-CharacterShow-GetCharactersByNameShow 
 
 how to use the api ! 
- https://api.got.show/api/show/houses/:name 
-exambe if i want 
+first name : 
+ ```https://api.got.show/api/show/characters/:name ```
+example 
 ```js
- let urlOne = axios.get(https://api.got.show/api/show/houses/Petyr Baelish)
+ let urlOne = axios.get(https://api.got.show/api/show/characters/Petyr Baelish)
 ```
 names : 
 // jon snow
 // Daenerys Targaryen
 // Tyrion Lannister
 // Petyr Baelish
-
+ 
+ second :
+ ```https://api.got.show/api/show/houses/:name ```
+example
+```js
+ let url = axios.get(https://api.got.show/api/show/houses/Red Keep)
+```
 
 and fitch the homes by character info  ^ ^ 
 
