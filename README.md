@@ -11,7 +11,7 @@ Create a react app that displays the different Game of Thrones Character and Hou
 by fitching data from https://api.got.show/doc/#api-CharacterShow-GetCharactersByNameShow 
 
 how to use the api ! 
-first name : 
+### first use api to fetch by Character name : 
  ```https://api.got.show/api/show/characters/:name ```
 example 
 ```js
@@ -23,7 +23,7 @@ names :
 // Tyrion Lannister
 // Petyr Baelish
  
- second :
+### second use api to fetch by house name : 
  ```https://api.got.show/api/show/houses/:name ```
 example
 ```js
