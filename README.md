@@ -1,64 +1,36 @@
-# Harry Potter with React
+# Game of Thrones with React
 
-![](https://66.media.tumblr.com/b4baf9f8be68ccac9419ea6a3c306e0a/tumblr_otxe5f5kB01saw731o1_500.gif)
+![](https://www.lstatic.org/UserFiles/images/2017/divert-2019/4-apr/GAME-OF-THRONES.jpg)
 
 ---
 
 With React, updating the DOM feels like magic, and we -the developers- are the wizards!
 
-Create a react app that displays the different Harry Potter houses and notable characters within them with two different components `<House />` and `<Character />` using the following data:
+Create a react app that displays the different Game of Thrones Character and Houses characters within them with two different components `<House />` and `<Character />` using 
 
+by fitching data from https://api.got.show/doc/#api-CharacterShow-GetCharactersByNameShow 
+
+how to use the api ! 
+ https://api.got.show/api/show/houses/:name 
+exambe if i want 
 ```js
-let houses = [{
-      houseName: "Slytherin",
-      imgSrc: "https://vignette.wikia.nocookie.net/harrypotter/images/0/00/Slytherin_ClearBG.png/revision/latest/scale-to-width-down/350?cb=20161020182557",
-      founder: "Salazar Slytherin",
-      element: "water",
-      notableCharacter: {
-        charName: "Draco Malfoy",
-        imgSrc: "https://pm1.narvii.com/6120/a9da34522b98393e52f0347fd14e6e98e296ff4f_hq.jpg",
-      }
-    },
-    {
-      houseName: "Ravenclaw",
-      imgSrc: "https://vignette.wikia.nocookie.net/harrypotter/images/4/4e/RavenclawCrest.png/revision/latest/scale-to-width-down/350?cb=20161020182442",
-      founder: "Rowena Ravenclaw",
-      element: "air",
-      notableCharacter: {
-        charName: "Luna Lovegood",
-        imgSrc: "http://www.electricferret.com/static/images/cbub/cbub_contender_image/6/5236/5236.jpg",
-      }
-    },
-    {
-      houseName: "Hufflepuff",
-      imgSrc: "https://vignette.wikia.nocookie.net/harrypotter/images/0/06/Hufflepuff_ClearBG.png/revision/latest/scale-to-width-down/350?cb=20161020182518",
-      founder: "Helga Hufflepuff",
-      element: "earth",
-      notableCharacter: {
-        charName: "Cedric Diggory",
-        imgSrc: "http://www.postavy.cz/foto/cedric-diggory-foto.jpg",
-      }
-    },
-    {
-      houseName: "Gryffindor",
-      imgSrc: "https://vignette.wikia.nocookie.net/harrypotter/images/b/b1/Gryffindor_ClearBG.png/revision/latest/scale-to-width-down/350?cb=20190222162949",
-      founder: "Godric Gryffindor",
-      element: "fire",
-      notableCharacter: {
-        charName: "Harry Potter",
-        imgSrc: "https://bigkidatheart.com/wp-content/uploads/2017/06/harry-potter-with-glasses-200x200.png",
-      }
-    },
-    ]
+ let urlOne = axios.get(https://api.got.show/api/show/houses/House Tarly)
 ```
+names : 
+// jon snow
+// Daenerys Targaryen
+// Tyrion Lannister
+// Samwell Tarly
 
->Hint: remember to keep each component in a different js file and import
 
+and fitch the homes by character info  ^ ^ 
+
+>Hint: you can use ```axios.All()``` [learn more](https://www.storyblok.com/tp/how-to-send-multiple-requests-using-axios)
 ---
 
 ### Preview
 
-![](https://i.imgur.com/iOYS9PN.png)
+![](https://git.generalassemb.ly/seir-alahsa/W07D04-GOT-exercise/blob/master/%D9%84%D9%82%D8%B7%D8%A9%20%D8%A7%D9%84%D8%B4%D8%A7%D8%B4%D8%A9%202021-01-13%20040513.png?raw=true)
 
 ---
 
