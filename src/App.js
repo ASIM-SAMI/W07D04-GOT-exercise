@@ -4,10 +4,7 @@ import { useState, useEffect } from 'react'
 
 
 
-// jon snow
-// Daenerys Targaryen
-// Joffrey Baratheon
-// Samwell Tarly
+
 
 
 
